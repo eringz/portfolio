@@ -11,34 +11,34 @@ const services = [
     {
         num: '01',
         title: 'Web Development',
-        description: 'Delivering tailored web development services that create responsive, user-friendly websites. We specialize in both front-end and back-end development, providing high-performance solutions customized to your goals.',
+        description: 'Delivering tailored web solutions with expertise in front-end and back-end development, creating responsive, user-friendly websites optimized for performance.',
         href: '',
     },
     {
         num: '02',
         title: 'Mobile Development',
-        description: 'Designing mobile apps that prioritize seamless, user-friendly experiences to elevate your business. Our custom solutions are built for speed, scalability, and tailored to meet your unique goals.',
+        description: 'Designing custom mobile apps for seamless, user-friendly experiences, built for speed, scalability, and tailored to your business goals.',
         href: '',
     },
     {
         num: '03',
-        title: 'Data-Driven Business Optimization',
-        description: 'Unlock your business\'s\ potential with data-driven insights that guide smarter decisions and drive growth. We transform complex data into actionable strategies, keeping you ahead in a competitive market.', 
+        title: 'Business Optimization',
+        description: 'Unlock your business’s potential with data-driven insights, transforming complex data into actionable strategies that drive smarter decisions and growth.', 
         
         href: '',
     },
     {
         num: '04',
         title: 'AI Development',
-        description: 'Building intelligent AI solutions that automate tasks, enhance decision-making, and drive innovation. We create scalable, data-driven models tailored to your business objectives.',
+        description: 'Building AI solutions that automate tasks, enhance decisions, and drive innovation with scalable, data-driven models tailored to your goals',
         href: '',
     },
-    {
-        num: '05',
-        title: 'Brand Boost',
-        description: 'Delivering tailored strategies that drive business growth and boost your competitive edge. We provide innovative solutions designed to maximize your brand’s potential and achieve lasting success.',
-        href: '',
-    },
+    // {
+    //     num: '05',
+    //     title: 'Brand Boost',
+    //     description: 'Delivering tailored strategies that drive business growth and boost your competitive edge. We provide innovative solutions designed to maximize your brand’s potential and achieve lasting success.',
+    //     href: '',
+    // },
 
 
 ]
