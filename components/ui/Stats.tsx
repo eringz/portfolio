@@ -31,7 +31,7 @@ const Stats = () => {
                     {stats.map((item, index) => {
                         return <div 
                             key={index}
-                            className="flex-1 flex gap-4 items-center justify-center xl:justify-start"
+                            className="flex-1 flex-col-2 gap-4 items-center justify-center xl:justify-start"
                         >
                             <CountUp 
                                 start={0} 
