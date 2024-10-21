@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 // FONTS
-import localFont from "next/font/local";
+// import localFont from "next/font/local";
 import { JetBrains_Mono } from 'next/font/google';
 
 // CSS
