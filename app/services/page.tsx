@@ -33,12 +33,12 @@ const services = [
         description: 'Building AI solutions that automate tasks, enhance decisions, and drive innovation with scalable, data-driven models tailored to your goals',
         href: '',
     },
-    // {
-    //     num: '05',
-    //     title: 'Brand Boost',
-    //     description: 'Delivering tailored strategies that drive business growth and boost your competitive edge. We provide innovative solutions designed to maximize your brand’s potential and achieve lasting success.',
-    //     href: '',
-    // },
+    {
+        num: '05',
+        title: 'Brand Boost',
+        description: 'Delivering tailored strategies that drive business growth and boost your competitive edge. We provide innovative solutions designed to maximize your brand’s potential and achieve lasting success.',
+        href: '',
+    },
 
 
 ]
