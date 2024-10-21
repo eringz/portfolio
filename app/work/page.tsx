@@ -17,6 +17,7 @@ import {
 
 import Link from "next/link";
 import Image from "next/image";
+import WorkSliderBtns from "@/components/ui/WorkSliderBtns";
 
 type Project = {
     num: string;
@@ -179,7 +180,7 @@ const Work = () => {
                                         bg-pink-50/20 "
                                     >
                                         {/* OVERLAY */}
-                                        <div></div>
+                                        <div className="absolute top-0 bottom-0 h-full bg-black/10 z-10"></div>
                                         {/* IMAGE */}
                                         <div className="w-full h-full ">
                                             <Image 
@@ -192,6 +193,14 @@ const Work = () => {
                                     </div>
                                 </SwiperSlide>
                             })}
+                            {/* SLIDER BUTTONS */}
+                            <WorkSliderBtns  
+                                containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] 
+                                xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                                btnStyles="flex justify-center items-center bg-accent hover:bg-accent-hover 
+                                text-primary text-[22px] w-[44px] h-[44px] transition-all"
+
+                            />
                         </Swiper>
                     </div>
                 </div>
