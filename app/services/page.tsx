@@ -4,44 +4,7 @@ import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
 
 import { motion } from "framer-motion";
-
-
-
-const services = [
-    {
-        num: '01',
-        title: 'Web Development',
-        description: 'Delivering tailored web solutions with expertise in front-end and back-end development, creating responsive, user-friendly websites optimized for performance.',
-        href: '',
-    },
-    {
-        num: '02',
-        title: 'Mobile Development',
-        description: 'Designing custom mobile apps for seamless, user-friendly experiences, built for speed, scalability, and tailored to your business goals.',
-        href: '',
-    },
-    {
-        num: '03',
-        title: 'Business Optimization',
-        description: 'Unlock your business’s potential with data-driven insights, transforming complex data into actionable strategies that drive smarter decisions and growth.', 
-        
-        href: '',
-    },
-    {
-        num: '04',
-        title: 'AI Development',
-        description: 'Building AI solutions that automate tasks, enhance decisions, and drive innovation with scalable, data-driven models tailored to your goals',
-        href: '',
-    },
-    {
-        num: '05',
-        title: 'Brand Boost',
-        description: 'Delivering tailored strategies that drive business growth and boost your competitive edge. We provide innovative solutions designed to maximize your brand’s potential and achieve lasting success.',
-        href: '',
-    },
-
-
-]
+import { services } from "@/data";
 
 const Services = () => {
     /**1:19:59 */

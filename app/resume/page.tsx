@@ -21,120 +21,7 @@ import {
 
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
-
-// ABOUT DATA
-const about = {
-    title: 'About me',
-    description: 'Recent computer engineering graduate with a diverse career background, specializing in troubleshooting, problem-solving, and various development frameworks to make a strong impact in tech',
-    info: [
-        {
-            fieldName: 'Name',
-            fieldValue: 'Ron Garcia Santos'
-        },
-        {
-            fieldName: 'Mobile No',
-            fieldValue: '09156755167'
-        },
-        {
-            fieldName: 'Experience',
-            fieldValue: '3 years'
-        },
-        {
-            fieldName: 'Skype',
-            fieldValue: 'coming soon'
-        },
-        {
-            fieldName: 'Nationality',
-            fieldValue: 'Filipino'
-        },
-        {
-            fieldName: 'Email',
-            fieldValue: 'ron.garcia.santos@gmail.com'
-        },
-        
-        {
-            fieldName: 'Freelance',
-            fieldValue: 'Available'
-        },
-        {
-            fieldName: 'Language',
-            fieldValue: 'English, Tagalog'
-        },
-    ]
-}
-
-// EXPERIENCE DATA
-const experience = {
-    icon: '/assets/resume/badge.svg',
-    title: 'My experience',
-    description: 'Has gained valuable experience in customer service, technical support, and software development, leveraging his diverse background to excel in problem-solving and enhance user satisfaction.',
-    items: [
-        {
-            company: 'Teleperformance Veris North',
-            position: 'Customer Service Representative',
-            duration: 'September 25, 2023 - Present',
-        },
-        {
-            company: 'AT Grit Solution',
-            position: 'Software Developer Associate',
-            duration: 'July 25, 2023 - September 4, 2023',
-        },
-
-        {
-            company: 'Remotask',
-            position: 'Freelance Lidar Annotation Specialist',
-            duration: 'September 2020 - October 2021',
-        },
-        {
-            company: 'Chevrolet Alabang',
-            position: 'Parts Consultant',
-            duration: 'August 2015 - December 2018',
-        },
-        
-        {
-            company: 'Chevrolet Carmona',
-            position: 'Parts Supervisor',
-            duration: 'March 2011 - December 2011',
-
-        },
-        {
-            company: 'Chevrolet Alabang',
-            position: 'Parts Warehouseman',
-            duration: 'April 2008 - March 2011',
-
-        },
-    ]
-}
-
-const education = {
-    icon: '/assets/resume/cap.svg',
-    title: 'My Education',
-    description: 'Holds a Bachelor of Science in Computer Engineering, with a background in Automobile Mechanics and comprehensive web development training, combining diverse technical and practical skills.',
-    items: [
-        {
-            institution: 'Colegio De Montalban',
-            degree: 'Bachelor Degree Computer Engineering',
-            duration: 'September 2019 - June 2024'
-        },
-        {
-            institution: 'Village88 Web Development Training Program',
-            degree: 'Full Stack Web Development Bootcamp',
-            duration: 'July 2023 - October 2023'
-        },
-        {
-            institution: 'MindTech Training and Development Institute Inc',
-            degree: 'Web Development Fundamental Training',
-            duration: 'December 2021 - January 2022'
-        },
-        {
-            institution: 'Don Bosco Makati',
-            degree: 'Automobile Mechanic',
-            duration: 'June 2006 - September 2007'
-        },
-
-
-    ]
-}
+import { about, experience, education } from "@/data";
 
 const skills = {
     title: 'My Skills',
@@ -212,22 +99,22 @@ const Resume = () => {
                                 </p>
                                 <ScrollArea className="h-[400px]">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]"> 
-                                        {experience.items.map((item, index) => {
+                                        {experience.items.map(({ company, position, duration }, index) => {
                                             return <li 
                                                 key={index}
                                                 className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col 
                                                 justify-center items-center lg:items-start gap-1"
                                             >
-                                                <span className="text-accent">{item.duration}</span>
+                                                <span className="text-accent">{duration}</span>
                                                 <h3 
                                                     className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left"
                                                 >
-                                                    {item.position}
+                                                    {position}
                                                     </h3>
                                                 <div className="flex items-center gap-3">
                                                     {/* dot */}
                                                     <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                                                    <p className="text-white/60 text-sm">{item.company}</p>
+                                                    <p className="text-white/60 text-sm">{company}</p>
                                                 </div>
                                             </li>
                                         })}
@@ -244,22 +131,22 @@ const Resume = () => {
                                 </p>
                                 <ScrollArea className="h-[400px]">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]"> 
-                                        {education.items.map((item, index) => {
+                                        {education.items.map(({duration, degree, institution }, index) => {
                                             return <li 
                                                 key={index}
                                                 className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col 
                                                 justify-center items-center lg:items-start gap-1"
                                             >
-                                                <span className="text-accent">{item.duration}</span>
+                                                <span className="text-accent">{duration}</span>
                                                 <h3 
                                                     className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left"
                                                 >
-                                                    {item.degree}
+                                                    {degree}
                                                     </h3>
                                                 <div className="flex items-center gap-3">
                                                     {/* dot */}
                                                     <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                                                    <p className="text-white/60 text-sm">{item.institution}</p>
+                                                    <p className="text-white/60 text-sm">{institution}</p>
                                                 </div>
                                             </li>
                                         })}
@@ -307,13 +194,13 @@ const Resume = () => {
                                     {about.description}
                                 </p>
                                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
-                                    {about.info.map((item, index) => {
+                                    {about.info.map(({fieldName, fieldValue}, index) => {
                                         return <li 
                                             key={index}
                                             className="flex justify-center items-center xl:justify-start gap-4"
                                         >
-                                            <span className="text-white/60">{item.fieldName}</span>
-                                            <span className="text-xl">{item.fieldValue}</span>
+                                            <span className="text-white/60">{fieldName}</span>
+                                            <span className="text-xl">{fieldValue}</span>
                                         </li>
                                     })}
                                 </ul>

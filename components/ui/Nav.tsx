@@ -1,41 +1,19 @@
 "use client"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-const links = [
-    {
-        name: "home",
-        path: "/"
-    },
-    {
-        name: "services",
-        path: "/services",
-    },
-    {
-        name: "resume",
-        path: "/resume",
-    },
-    {
-        name: "work",
-        path: "/work"
-    },
-    {
-        name: "contact",
-        path: "/contact",
-    },
-];
+import { navLinks } from "@/data";
 
 const Nav = () => {
     const pathname = usePathname();
     return (
         <div className="flex gap-8">
-            {links.map((link, index) => {
+            {navLinks.map(({ name, path }, index) => {
                 return <Link 
                     key={index}
-                    href={link.path} 
-                    className={`${link.path === pathname && "text-accent border-b-2 border-accent"} capitalize font-medium hover:text-accent transition-all`}
+                    href={path} 
+                    className={`${path === pathname && "text-accent border-b-2 border-accent"} capitalize font-medium hover:text-accent transition-all`}
                 
-                >{link.name}</Link>
+                >{name}</Link>
             })}
         </div>
     )
