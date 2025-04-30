@@ -131,6 +131,16 @@ export const experience = {
     description: 'Has gained valuable experience in customer service, technical support, and software development, leveraging his diverse background to excel in problem-solving and enhance user satisfaction.',
     items: [
         {
+            company: 'Teleperformance Vertis North',
+            position: 'Business Intelligence Analyst',
+            duration: 'October 2021 - Present',
+        },
+        {
+            company: 'Teleperformance Vertis North',
+            position: 'Customer Service Representative',
+            duration: 'October 2021 - March 2024',
+        },
+        {
             company: 'Teleperformance Veris North',
             position: 'Customer Service Representative',
             duration: 'September 25, 2023 - Present',
