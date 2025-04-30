@@ -9,7 +9,7 @@ type SocialProps = {
 };
 
 const socials = [
-    {icon: <FaGithub />, path: 'https:github.com/eringz'},
+    {icon: <FaGithub />, path: 'https://github.com/eringz'},
     {icon: <FaLinkedinIn />, path: 'https://www.linkedin.com/in/john-ronald-santos/'},
 ]
 
@@ -21,6 +21,7 @@ const Social = ({containerStyles, iconStyles}: SocialProps) => {
                     key={index} 
                     href={item.path}
                     className={iconStyles}
+                    target="_blank"
                 >
                     {item.icon}
                 </Link>
