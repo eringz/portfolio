@@ -38,39 +38,52 @@ const projects = [
     {
         num: '01',
         category: 'frontend',
-        title: 'project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde asperiores iusto inventore quae nobis voluptatem.',
+        title: 'Task Tracker / To-Do List',
+        description: 'A simple yet powerful to-do list app made with React and Zustand. Users can add, edit, delete, and mark tasks as complete. All tasks are saved using localStorage for persistent user data. Designed with a sleek, minimalist UI.',
         stack: [
-            {name: 'HTML 5'}, {name: 'CSS 3'}, {name: 'javascript'}
+            {name: 'Will post once completed'},
         ],
-        image: '/assets/work/thumb1.png',
+        image: '/assets/work/coming-soon.jpg',
         live: '',
         github: '',
     },
     {
         num: '02',
-        category: 'fullstack',
-        title: 'project 2',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde asperiores iusto inventore quae nobis voluptatem.',
+        category: 'Upcoming',
+        title: 'Markdown Blog',
+        description: 'A static blog built using Next.js that renders posts from Markdown (.md) files using gray-matter and remark. Features include dynamic routing, clean post layout, and SEO-ready static generation via getStaticProps.',
         stack: [
-            {name: 'Next JS'}, {name: 'Tailwind CSS'}, {name: 'Node JS'}
+            {name: 'Will post once completed'},
         ],
-        image: '/assets/work/thumb2.png',
+        image: '/assets/work/coming-soon.jpg',
+        live: '',
+        github: 'Will post once completed',
+    },
+    {
+        num: '03',
+        category: 'Upcoming',
+        title: 'Weather App',
+        description: 'A responsive weather application that fetches real-time weather data using the OpenWeatherMap API. Users can search for any city and view weather details like temperature, humidity, and conditions. Includes error handling and smooth UI transitions.',
+        stack: [
+            {name: 'Will post once completed'},
+        ],
+        image: '/assets/work/coming-soon.jpg',
         live: '',
         github: '',
     },
     {
-        num: '03',
-        category: 'frontend',
-        title: 'project 3',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde asperiores iusto inventore quae nobis voluptatem.',
+        num: '04',
+        category: 'Upcoming',
+        title: 'Mini Job Board',
+        description: 'A mock job board app displaying a list of job postings loaded from JSON. Users can filter jobs by category or location. Built with responsive design and clean UX to simulate a real-world job search experience.',
         stack: [
-            {name: 'Next JS'}, {name: 'Tailwind CSS'}, {name: 'Node JS'}
+            {name: 'Will post once completed'},
         ],
-        image: '/assets/work/thumb3.png',
+        image: '/assets/work/coming-soon.jpg',
         live: '',
         github: '',
     },
+
 ]
 
 
@@ -110,12 +123,19 @@ const Work = () => {
                             >
                                 {project.num}
                             </div>
-                            {/* PROJECT CATEGORY */}
+                            {/* PROJECT Title */}
                             <h2 className="text-[42px] font-bold leading-none text-white
                                 group-hove:text-accent transition-all duration-500 capitalize"
                             >
-                                {project.category} project
+                                {project.title}
                             </h2>
+                            {/* PROJECT CATEGORY */}
+                            <h3
+                                className="text-xl font-bold text-white/80
+                                group-hove:text-accent transition-all duration-500 capitalize"   
+                            >
+                                {project.category} project
+                            </h3>
                             {/* PROJECT DESCRIPTION */}
                             <p className="text-white/60">{project.description}</p>
                             {/* STACK */}
@@ -182,7 +202,7 @@ const Work = () => {
                                         {/* OVERLAY */}
                                         <div className="absolute top-0 bottom-0 h-full bg-black/10 z-10"></div>
                                         {/* IMAGE */}
-                                        <div className="w-full h-full ">
+                                        <div className="w-full h-full object-cover">
                                             <Image 
                                                 src={project.image}
                                                 fill

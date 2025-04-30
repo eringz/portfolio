@@ -133,7 +133,7 @@ export const experience = {
         {
             company: 'Teleperformance Vertis North',
             position: 'Business Intelligence Analyst',
-            duration: 'October 2021 - Present',
+            duration: 'March 2024 - Present',
         },
         {
             company: 'Teleperformance Vertis North',
