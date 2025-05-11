@@ -137,12 +137,7 @@ export const experience = {
         {
             company: 'Teleperformance Vertis North',
             position: 'Customer Service Representative',
-            duration: 'October 2021 - March 2024',
-        },
-        {
-            company: 'Teleperformance Veris North',
-            position: 'Customer Service Representative',
-            duration: 'September 25, 2023 - Present',
+            duration: 'September 2023 - March 2024',
         },
         {
             company: 'AT Grit Solution',
