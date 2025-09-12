@@ -135,6 +135,11 @@ export const experience = {
             duration: 'June 2025 - present',
         },
         {
+            company: 'CITS IT Solutions',
+            position: 'IT Operations Support - Remote',
+            duration: 'July 2023 - present',
+        },
+        {
             company: 'Teleperformance Vertis North',
             position: 'Business Intelligence Analyst',
             duration: 'September 2023 - June 2025',
@@ -144,22 +149,30 @@ export const experience = {
             position: 'Software Developer Associate',
             duration: 'July 25, 2023 - September 4, 2023',
         },
-
         {
             company: 'Remotask',
             position: 'Freelance Lidar Annotation Specialist',
             duration: 'September 2020 - October 2021',
         },
         {
+            company: 'HG Tech IT Pro',
+            position: 'IT Support / Security Installer ',
+            duration: 'May 2019 - January 2020',
+        },
+        {
             company: 'Chevrolet Alabang',
             position: 'Parts Consultant',
             duration: 'August 2015 - December 2018',
         },
-        
         {
-            company: 'Chevrolet Carmona',
-            position: 'Parts Supervisor',
-            duration: 'March 2011 - December 2011',
+            company: 'Chevrolet Alabang',
+            position: 'Parts Consultant',
+            duration: 'August 2015 - December 2018',
+        },
+        {
+            company: 'Guard – all Electronic Security Systems INC',
+            position: 'Security Installer',
+            duration: 'January 2014 - December 2015',
 
         },
         {
