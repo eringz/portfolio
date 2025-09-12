@@ -132,12 +132,7 @@ export const experience = {
         {
             company: 'Teleperformance Vertis North',
             position: 'Business Intelligence Analyst',
-            duration: 'March 2024 - Present',
-        },
-        {
-            company: 'Teleperformance Vertis North',
-            position: 'Customer Service Representative',
-            duration: 'September 2023 - March 2024',
+            duration: 'September 2023 - June 2025',
         },
         {
             company: 'AT Grit Solution',
