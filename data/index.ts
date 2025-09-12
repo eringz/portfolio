@@ -130,6 +130,11 @@ export const experience = {
     description: 'Has gained valuable experience in customer service, technical support, and software development, leveraging his diverse background to excel in problem-solving and enhance user satisfaction.',
     items: [
         {
+            company: 'Pulse Optix / Boracay Hotel & Convention Project',
+            position: 'Qualyt Assurance / Quality Control',
+            duration: 'June 2025 - present',
+        },
+        {
             company: 'Teleperformance Vertis North',
             position: 'Business Intelligence Analyst',
             duration: 'September 2023 - June 2025',
