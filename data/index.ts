@@ -164,16 +164,17 @@ export const experience = {
             position: 'Parts Consultant',
             duration: 'August 2015 - December 2018',
         },
-        {
-            company: 'Chevrolet Alabang',
-            position: 'Parts Consultant',
-            duration: 'August 2015 - December 2018',
-        },
+        
         {
             company: 'Guard – all Electronic Security Systems INC',
             position: 'Security Installer',
             duration: 'January 2014 - December 2015',
 
+        },
+        {
+            company: 'Chevrolet Carmona',
+            position: 'Parts Supervisor',
+            duration: 'August 2011 - December 2011',
         },
         {
             company: 'Chevrolet Alabang',
