@@ -15,12 +15,12 @@ const Home = () => {
           <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
             {/* text */}
             <div className="text-center xl:text-left order-2 xl:order-none">
-              <span className="text-xl">Software Developer</span>
+              <span className="text-xl">QA & BI Analyst | Aspiring Developer</span>
               <h1 className="h1 mb-6">
                 Hello I&apos;m <br /> <span className="text-accent">Ron Santos</span>
               </h1>
               <p className="max-w-[500px] mb-9 text-white/80">
-              I&apos;m skilled in troubleshooting, problem-solving, and various development frameworks, with a focus on making a strong impact in tech.
+                Bringing hands-on experience in business intelligence and QA, with a track record of streamlining reports, ensuring quality on-site, and supporting decision-making. Currently focused on transitioning into development through portfolio projects and automation tools.
               </p>
               {/* buttons and socials */}
               <div className="flex flex-col xl:flex-row items-center gap-8">

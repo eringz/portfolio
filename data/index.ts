@@ -127,7 +127,7 @@ export const about = {
 export const experience = {
     icon: '/assets/resume/badge.svg',
     title: 'My experience',
-    description: 'Has gained valuable experience in customer service, technical support, and software development, leveraging his diverse background to excel in problem-solving and enhance user satisfaction.',
+    description: 'Bringing a unique blend of quality assurance, business analysis, and software development, I transform diverse industry experience into practical tech solutions. From managing IT operations and automating business reports to ensuring construction site quality and developing web applications, I specialize in problem-solving, process improvement, and delivering reliable systems.',
     items: [
         {
             company: 'Pulse Optix / Boracay Hotel & Convention Project',
