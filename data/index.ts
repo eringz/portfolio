@@ -32,12 +32,12 @@ export const navLinks = [
 
 export const stats = [
     {
-        num: 0,
-        text: "Years of Experience"
+        num: 5,
+        text: "Portfolio & Work Projects"
     },
     {
-        num: 0,
-        text: "Projects Completed"
+        num: 2,
+        text: "Years in QA & BI"
     },
     {
         num: 7,
