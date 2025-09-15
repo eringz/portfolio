@@ -29,7 +29,12 @@ const Home = () => {
                   size="lg"
                   className="flex items-center gap-2"
                 >
-                  <span>Download CV</span>
+                  <a
+                    href="/John_Ronald_Santos_CV.pdf"
+                    download
+                  >
+                    Download CV
+                  </a>
                   <FiDownload className="text-xl" />
                 </Button>
                 <div className="mb-8 xl:mb-0">

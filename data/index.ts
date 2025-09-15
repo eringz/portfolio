@@ -132,13 +132,13 @@ export const experience = {
     items: [
         {
             company: 'Pulse Optix / Boracay Hotel & Convention Project',
-            position: 'Qualyt Assurance / Quality Control',
-            duration: 'June 2025 - present',
+            position: 'QA / QC Associate',
+            duration: 'June 2025 - September 2025',
         },
         {
             company: 'CITS IT Solutions',
-            position: 'IT Operations Support - Remote',
-            duration: 'July 2023 - present',
+            position: 'Freelance On-Call IT Operations Support',
+            duration: 'January 2023 - present',
         },
         {
             company: 'Teleperformance Vertis North',
