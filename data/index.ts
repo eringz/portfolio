@@ -33,19 +33,19 @@ export const navLinks = [
 export const stats = [
     {
         num: 5,
-        text: "Projects Completed & In Progress"
+        text: "Projects & Prototypes"
     },
     {
         num: 2,
-        text: "Years in QA & BI"
+        text: "QA & BI Experience"
     },
     {
         num: 10,
-        text: "Tools and Frameworks"
+        text: "Technologies Used"
     },
     {
         num: 10,
-        text: "Github Repositories"
+        text: "Cross-industry Teams"
     },
 ];
 
