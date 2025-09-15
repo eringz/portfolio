@@ -13,14 +13,20 @@ const Stats = () => {
                             key={index}
                             className="flex-1 flex-col-2 gap-4 items-center justify-center xl:justify-start"
                         >
-                            <CountUp 
+                            <div className="flex items-center"
+                            >
+                                <CountUp 
                                 start={0} 
                                 end={item.num} 
                                 duration={5} 
                                 delay={2}
                                 className="text-4xl xl:text-6xl font-extrabold" 
-                            />
-                            <span>+</span>
+                                />
+                                <span
+                                    className="text-4xl text-[#F8F8FF]"
+                                >+</span>
+                            </div>
+                            
                             <p 
                                 className={`${item.text.length < 15 ? "max-w[100px]" : "max-w-[150px]"} leading-snug text-white/80`}
                             >
