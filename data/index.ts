@@ -50,6 +50,8 @@ export const stats = [
     },
 ];
 
+export { projects } from "./projects";
+
 export const services = [
     {
         num: '01',
