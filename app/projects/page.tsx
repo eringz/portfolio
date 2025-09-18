@@ -230,3 +230,137 @@ const Work = () => {
 }
 
 export default Work
+
+// "use client";
+
+// import { motion } from "framer-motion";
+// import { Card, CardContent } from "@/components/ui/card";
+// import { Button } from "@/components/ui/button";
+// import { ExternalLink } from "lucide-react";
+// import { BsGithub } from "react-icons/bs";
+
+// const Projects = () => {
+//     return (
+//         <section
+//             className="p-8 min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white"
+//         >
+//             <div
+//                 className="max-w-4xl mx-auto space-y-12"
+//             >
+//                 {/** BIO PRO Project */}
+//                 <motion.div 
+//                     initial={{opacity: 0, y: 40}}
+//                     whileInView={{opacity: 1, y: 0}}
+//                     transition={{duration: 0.6}}
+//                     viewport={{once: true}}
+//                 >
+//                     <Card
+//                         className="bg-white/10 backdrop-blur-xl border border-white/20 shadow-xl rounded-2xl overflow-hidden"
+//                     >
+//                         <CardContent className="p-8 space-y-6">
+//                             <motion.h2
+//                                 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent"
+//                                 whileHover={{scale: 1.05}}
+//                             >
+//                                 BIO Pro: Biometric-Inspired Attendance & Payroll System
+//                             </motion.h2>
+
+//                             <p className="text-lg text-gray-300">
+//                                 Traditional attendance systems are expensive and error-prone. 
+//                                 Bio Pro is a web-based solution with mock biometric features 
+//                                 such as face recognition, real-time monitoring, automated 
+//                                 time-in/out status, notifications, and Excel-ready payroll reports.
+//                             </p>
+
+//                             <ul className="list-disc list-inside text-gray-300 space-y-1">
+//                                 <li>Real-time monitoring dashboard</li>
+//                                 <li>Face Recognition login (mock-up)</li>
+//                                 <li>Automated Time-in/out with restrictions</li>
+//                                 <li>Notifications for employees near shift</li>
+//                                 <li>Analytic + Excel export</li>
+//                             </ul>
+
+//                             <div className="flex flex-wrap gap-2">
+//                                 <span
+//                                     className="px-3 py-1 rounded-full bg-cyan-600/20 text-cyan-400 text-sm"
+//                                 >
+//                                     Next.js
+//                                 </span>
+//                                 <span
+//                                     className="px-3 py-1 rounded-full bg-cyan-600/20 text-cyan-400 text-sm"
+//                                 >
+//                                     Node.js
+//                                 </span>
+//                                 <span
+//                                     className="px-3 py-1 rounded-full bg-cyan-600/20 text-cyan-400 text-sm"
+//                                 >
+//                                     face-api.js
+//                                 </span>
+//                                 <span
+//                                     className="px-3 py-1 rounded-full bg-cyan-600/20 text-cyan-400 text-sm"
+//                                 >
+//                                     xlsx
+//                                 </span>
+//                             </div>
+
+//                             <div className="flex gap-4 pt-4">
+//                                 <Button
+//                                     variant="outline"
+//                                     className="flex items-center gap-2"
+//                                 >
+//                                     <BsGithub /> Code
+//                                 </Button>
+//                                 <Button
+//                                     className="bg-gradient-to-r from-cyan-400 to-blue-500 flex items-center gap-2"
+//                                 >
+//                                     <ExternalLink className="w-4 h-4"/> Live Demo
+//                                 </Button>
+//                             </div>
+//                         </CardContent>
+//                     </Card>
+//                 </motion.div>    
+//             </div>
+
+//             <motion.div whileHover={{ rotateY: 5, scale: 1.02 }} transition={{ type: "spring" }}>
+//   <div className="relative bg-gradient-to-br from-gray-900 via-black to-gray-950 border border-cyan-400/20 rounded-2xl shadow-xl p-8">
+    
+//     {/* Header */}
+//     <h2 className="font-mono text-xl text-cyan-400 mb-4">
+//       $ BIO Pro — Biometric-Inspired Attendance Systemses
+//     </h2>
+
+//     {/* Description */}
+//     <p className="text-gray-300 leading-relaxed">
+//       A case study project that solves the problem of <span className="text-cyan-300">expensive and error-prone attendance tracking</span>.
+//       BIO Pro introduces a web-based solution inspired by biometric systems...
+//     </p>
+
+//     {/* Tech stack tags */}
+//     <div className="flex gap-2 mt-4">
+//       <span className="px-3 py-1 text-sm rounded-full bg-cyan-600/20 text-cyan-400">Next.js</span>
+//       <span className="px-3 py-1 text-sm rounded-full bg-cyan-600/20 text-cyan-400">Node.js</span>
+//       <span className="px-3 py-1 text-sm rounded-full bg-cyan-600/20 text-cyan-400">face-api.js</span>
+//     </div>
+
+//     {/* Buttons */}
+//     <div className="flex gap-4 mt-6">
+//       <Button className="bg-cyan-600/20 text-cyan-400 border border-cyan-400/30">
+//         <BsGithub /> Code
+//       </Button>
+//       <Button className="bg-gradient-to-r from-cyan-400 to-blue-500 text-black">
+//         <ExternalLink className="w-4 h-4" /> Live Demo
+//       </Button>
+//     </div>
+
+//     {/* Glow effect */}
+//     <div className="absolute inset-0 rounded-2xl border border-cyan-400/10 blur-xl opacity-30"></div>
+//   </div>
+// </motion.div>
+
+
+//         </section>
+
+//     )
+// }
+
+// export default Projects
