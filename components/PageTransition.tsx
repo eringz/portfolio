@@ -19,7 +19,7 @@ const PageTransition = ({ children }: PageTransitionProps) => {
                         opacity: 0,
                         transition: {
                             delay: 1,
-                            duration: 0.4,
+                            duration: 5,
                             ease: "easeInOut",
                         }
                     }}

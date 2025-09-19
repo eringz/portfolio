@@ -24,7 +24,7 @@ const Home = () => {
     const text = `${greeting}! I'm`;
     const name = `Ron Santos`;
     const position = `Programmer | QA & BI`
-    const motto = `I code. I automate. I analyze. Solutions that hit hard.`
+    const motto = `I code. I automate. I analyze. Making impact.`
 
     return (
       <section className="h-full">
@@ -43,7 +43,7 @@ const Home = () => {
               <motion.h1 
                 initial={{ opacity: 0, width: 0 }}
                 animate={{ opacity: 1, width: "100%" }}
-                transition={{ duration: 3, ease: "easeInOut"}}
+                transition={{ delay: 1, duration: 3, ease: "easeInOut"}}
                 className="h1 mb-6 text-accent font-bold whitespace-nowrap overflow-hidden"
               >
                 {name}
@@ -62,7 +62,7 @@ const Home = () => {
                 transition={{ duration: 5, ease: "easeInOut" }} 
                 className="max-w-[500px] mb-9 text-white/80 font-bold whitespace-nowrap overflow-hidden"
               >
-                I code. I automate. I analyze. Make impact.
+                {motto}
               </motion.p>
               {/* buttons and socials */}
               <div className="flex flex-col xl:flex-row items-center gap-8">
