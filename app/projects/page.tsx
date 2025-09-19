@@ -12,12 +12,21 @@ export default function ProjectsPage () {
     const [active, setActive] = useState<Project | null>(projects[0]);
 
     return (
-        <section
-            className="relative min-h-screen w-full bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white px-6 py-16"
+        <motion.section
+            initial={{ opacity: 0 }}
+            animate={{ 
+                opacity: 1,
+                transition: {
+                    delay: 2.4,
+                    duration: 0.4,
+                    ease: 'easeIn',
+                },
+            }}
+            className="relative min-h-screen w-full  text-white px-6 py-16"
         >
             {/** Background futuristic glow */}
             <div
-                className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.15),transparent_70%)]"
+                className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,rgba(28,28,34,0.15),transparent_70%)]"
             />
 
             <motion.h1
@@ -141,6 +150,6 @@ export default function ProjectsPage () {
                 )}
                 
             </div>
-        </section>
+        </motion.section>
     );
 }
