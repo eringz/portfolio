@@ -28,7 +28,6 @@ const Home = () => {
 
     return (
       <section className="h-full">
-        
         <div className="container mx-auto h-full">
           <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
             {/* text */}
@@ -38,7 +37,9 @@ const Home = () => {
                 initial={{ opacity: 0, y: -20  }}
                 animate={{ opacity: 1, y: 0  }}
                 transition={{ duration: 5, ease: "easeInOut" }}
-              >{text}</motion.h1>
+              >
+                {text}
+              </motion.h1>
               
               <motion.h1 
                 initial={{ opacity: 0, width: 0 }}
@@ -75,9 +76,7 @@ const Home = () => {
                     size="lg"
                     className="flex items-center gap-2"
                   >
-                    
                       Download CV
-                    
                     <FiDownload className="text-xl" />
                   </Button>
                 </a>

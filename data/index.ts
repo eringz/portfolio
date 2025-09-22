@@ -11,10 +11,10 @@ export const navLinks = [
         name: "home",
         path: "/"
     },
-    // {
-    //     name: "services",
-    //     path: "/services",
-    // },
+    {
+        name: "services",
+        path: "/services",
+    },
     {
         name: "projects",
         path: "/projects"
