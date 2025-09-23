@@ -34,9 +34,9 @@ export const projects: Project[] = [
                 'Improves employee accountability with real-time monitoring.',
                 'Demonstrates engineering, analytics, and development skills in one project'
             ],
-            image: '/assets/work/coming-soon.jpg',
+            image: '/assets/work/bio-pro.png',
             live: '',
-            github: ''
+            github: 'https://github.com/eringz/bio-pro.git'
         },
         
     ),
