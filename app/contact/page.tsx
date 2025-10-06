@@ -46,7 +46,7 @@ const Contact = () => {
           ease: 'easeIn',
         },
       }}
-      className='py-6'
+      className='py-8 relative min-h-screen bg-gradient-to-bl from-[#1C1C21] via-[#202A29] to-[#1C1C21]'
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">

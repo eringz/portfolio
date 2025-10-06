@@ -4,12 +4,26 @@ import {
     FaJs,
     FaReact,
     FaNodeJs,
+    FaHome,
+    FaFacebookMessenger
 } from "react-icons/fa";
 
-export const navLinks = [
+import { GrProjects } from "react-icons/gr";
+
+import { IconType } from 'react-icons';
+
+
+interface NavLink {
+    name: string;
+    path: string;
+    icon?: IconType;
+}
+
+export const navLinks: NavLink[] = [
     {
         name: "home",
-        path: "/"
+        path: "/",
+        icon: FaHome
     },
     // {
     //     name: "services",
@@ -17,7 +31,8 @@ export const navLinks = [
     // },
     {
         name: "projects",
-        path: "/projects"
+        path: "/projects",
+        icon: GrProjects
     },
     // {
     //     name: "resume",
@@ -27,6 +42,7 @@ export const navLinks = [
     {
         name: "contact",
         path: "/contact",
+        icon: FaFacebookMessenger
     },
 
 ];

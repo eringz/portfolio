@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useState } from "react";
 
 const Photo = () => {
+    const [src, setSrc] = useState('/assets/ron-ngayon.png');
     return (
         <div className="w-full h-full relative">
             <motion.div
@@ -29,16 +31,24 @@ const Photo = () => {
                             ease: 'easeInOut'
                         }
                     }}
-                    className="w-[298px] h-[268px] xl:w-full xl:h-[498px] mix-blend-lighten absolute"
+                    className="flex w-[298px] h-[268px] xl:w-full xl:h-[498px] mix-blend-lighten absolute"
                 >
-                    <Image 
-                        src="/assets/ron.png" 
-                        priority 
-                        quality={100} 
-                        fill 
-                        alt="Photo of Ron Santos as Parts Consultant Champion" 
-                        className="object-contain"
-                    />
+                    
+                        <Image 
+                            src={src}
+                            priority 
+                            quality={100} 
+                            width={620}
+                            height={400}
+                            // fill 
+                            // loading='lazy'
+                            // onMouseLeave={() => setSrc('/assets/ron.png')}
+                            // onMouseEnter={() => setSrc('/assets/ron-ngayon.png')}
+                            alt="Photo of Ron Santos as Parts Consultant Champion" 
+                            className="object-cover m-auto place-self-center"
+                        />
+                    
+                    
                 </motion.div>
 
                 {/* CIRCLE 1:09:11 */}

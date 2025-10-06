@@ -7,13 +7,16 @@ const Nav = () => {
     const pathname = usePathname();
     return (
         <div className="flex gap-8">
-            {navLinks.map(({ name, path }, index) => {
+            {navLinks.map(({ name, path, icon }, index) => {
+                const Icon = icon;
                 return <Link 
                     key={index}
                     href={path} 
-                    className={`${path === pathname && "text-accent border-b-2 border-accent"} capitalize font-medium hover:text-accent transition-all`}
+                    className={`${path === pathname && "text-accent pb-2 border-b-2 border-accent"} capitalize font-medium hover:text-accent transition-all`}
                 
-                >{name}</Link>
+                >
+                    {Icon && <Icon size={20} />}
+                </Link>
             })}
         </div>
     )

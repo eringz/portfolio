@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 
-import { FaGithub, FaLinkedinIn} from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaFacebook } from "react-icons/fa";
 
 type SocialProps = {
     containerStyles: string;
@@ -11,7 +11,8 @@ type SocialProps = {
 const socials = [
     {icon: <FaGithub />, path: 'https://github.com/eringz'},
     {icon: <FaLinkedinIn />, path: 'https://www.linkedin.com/in/john-ronald-santos/'},
-]
+    {icon: <FaFacebook  />, path: 'https://www.facebook.com/ron.santos.307594'},
+];
 
 const Social = ({containerStyles, iconStyles}: SocialProps) => {
     return (

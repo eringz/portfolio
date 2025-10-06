@@ -24,10 +24,10 @@ const Home = () => {
     const text = `${greeting}! I'm`;
     const name = `Ron Santos`;
     const position = `Programmer | QA & BI`
-    const motto = `I code. I automate. I analyze. Making impact.`
+    const motto = `I code. I automate. I analyze.`
 
     return (
-      <section className="h-full">
+      <section className="relative  bg-gradient-to-b from-[#1C1C21] via-[#202A29] to-[#1C1C21]">
         <div className="container mx-auto h-full">
           <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
             {/* text */}
@@ -58,10 +58,10 @@ const Home = () => {
                 {position}
               </motion.h1>
               <motion.p
-                initial={{ opacity: 0, width: 0 }}
+                initial={{ opacity: 0, width: 0, }}
                 animate={{ opacity: 1, width: "110%",  }}
                 transition={{ duration: 5, ease: "easeInOut" }} 
-                className="max-w-[500px] mb-9 text-white/80 font-bold whitespace-nowrap overflow-hidden"
+                className="max-w-[500px] mb-9 text-white/80 font-bold xl:text-left  whitespace-nowrap overflow-hidden"
               >
                 {motto}
               </motion.p>
