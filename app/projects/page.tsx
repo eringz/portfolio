@@ -1,18 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { projects } from "@/data";
 import type { Project } from "@/utils/createProject";
 import { useState } from "react";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { Link2 } from "lucide-react";
-import { BsGithub } from "react-icons/bs";
+
 
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function ProjectsPage() {
-  const [active, setActive] = useState<Project | null>(projects[0]);
+  
 
   return (
     <motion.section
@@ -34,7 +31,13 @@ export default function ProjectsPage() {
         className="max-w-[500px] whitespace-nowrap overflow-hidden"
       >
         Projects Page Restructure Comming Soon....
+        <ul>
+          {projects.map((project) => {
+              return <li key={project.num}>{project.num}. {project.title}</li>
+          })}
+        </ul>
       </motion.div>
+      
 
 
       
