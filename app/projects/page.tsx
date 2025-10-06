@@ -27,9 +27,14 @@ export default function ProjectsPage() {
       }}
       className="bg- white relative min-h-screen w-full text-white px-6 py-16 bg-gradient-to-br from-[#1C1C21] via-[#202A29] to-[#1C1C21]"
     >
-      <div>
-        
-      </div>
+      <motion.div
+        initial={{ opacity: 0, width: 0, }}
+        animate={{ opacity: 1, width: "110%",  }}
+        transition={{ duration: 10, ease: "easeInOut" }} 
+        className="max-w-[500px] whitespace-nowrap overflow-hidden"
+      >
+        Projects Page Restructure Comming Soon....
+      </motion.div>
 
 
       
