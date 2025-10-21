@@ -7,7 +7,7 @@ const Nav = () => {
     const pathname = usePathname();
     return (
         <div className="flex gap-8">
-            {navLinks.map(({ name, path, icon }, index) => {
+            {navLinks.map(({ path, icon }, index) => {
                 const Icon = icon;
                 return <Link 
                     key={index}

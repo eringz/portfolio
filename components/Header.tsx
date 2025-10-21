@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { Button } from "./ui/button";
-
 
 // UI COMPONENTS
 import Nav from "./ui/Nav";

@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 const Photo = () => {
-    const [src, setSrc] = useState('/assets/ron-ngayon.png');
+    // const [src, setSrc] = useState('/assets/ron-ngayon.png');
     return (
         <div className="w-full h-full relative">
             <motion.div
@@ -35,7 +35,7 @@ const Photo = () => {
                 >
                     
                         <Image 
-                            src={src}
+                            src='/assets/ron-ngayon.png'
                             priority 
                             quality={100} 
                             width={620}
