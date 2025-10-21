@@ -2,14 +2,9 @@
 
 import { motion } from "framer-motion";
 import { projects } from "@/data";
-import type { Project } from "@/utils/createProject";
-import { useState } from "react";
-
-
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function ProjectsPage() {
-  
+
 
   return (
     <motion.section
@@ -26,23 +21,19 @@ export default function ProjectsPage() {
     >
       <motion.div
         initial={{ opacity: 0, width: 0, }}
-        animate={{ opacity: 1, width: "110%",  }}
-        transition={{ duration: 10, ease: "easeInOut" }} 
+        animate={{ opacity: 1, width: "110%", }}
+        transition={{ duration: 10, ease: "easeInOut" }}
         className="max-w-[500px] whitespace-nowrap overflow-hidden"
       >
         Projects Page Restructure Comming Soon....
         <ul>
           {projects.map((project) => {
-              return <li key={project.num}>{project.num}. {project.title}</li>
+            return <li key={project.num}>{project.num}. {project.title}</li>
           })}
         </ul>
       </motion.div>
-      
 
-
-      
-
-      
+    
     </motion.section>
   );
 }
