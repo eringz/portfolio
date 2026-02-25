@@ -21,7 +21,6 @@ const Home = () => {
       else setGreeting("Good Evening");
     }, []);
 
-    const text = `${greeting}! I'm`;
     const name = `Ron Santos`;
     const position = `Programmer | QA & BI`
     const motto = `I code. I automate. I analyze.`
@@ -32,15 +31,6 @@ const Home = () => {
           <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
             {/* text */}
             <div className="text-center xl:text-left order-2 xl:order-none">
-              <motion.h1
-                className="text-4xl font-bold"
-                initial={{ opacity: 0, y: -20  }}
-                animate={{ opacity: 1, y: 0  }}
-                transition={{ duration: 5, ease: "easeInOut" }}
-              >
-                {text}
-              </motion.h1>
-              
               <motion.h1 
                 initial={{ opacity: 0, width: 0 }}
                 animate={{ opacity: 1, width: "100%" }}
