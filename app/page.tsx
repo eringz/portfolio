@@ -7,19 +7,9 @@ import { FiDownload } from "react-icons/fi";
 import Social from "@/components/ui/Social";
 import Photo from "@/components/ui/Photo";
 import Stats from "@/components/ui/Stats";
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const Home = () => {
-    const [greeting, setGreeting] = useState("Hello");
-
-    useEffect(() => {
-      const hour = new Date().getHours();
-      if (hour < 12) setGreeting("Good Morning");
-      else if (hour < 18) setGreeting("Good Afternoon");
-      else if (hour == 24) setGreeting("Hey its Midnight");
-      else setGreeting("Good Evening");
-    }, []);
 
     const name = `Ron Santos`;
     const position = `Programmer | QA & BI`
