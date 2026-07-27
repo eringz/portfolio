@@ -57,8 +57,8 @@ const projects: Project[] = [
     category: "Mobile",
     tech: ["Kotlin", "Room"],
     // image: "/assets/quick-chat.png",
-    liveUrl: "https://timeless.dreamplanfix.com/",
-    githubUrl: "https://github.com/eringz/fixed-asset-inventory/releases/download/v1.0.0/app-release.apk",
+    liveUrl: "https://github.com/eringz/fixed-asset-inventory/releases/download/v1.0.0/app-release.apk",
+    githubUrl: "https://github.com/eringz/fixed-asset-inventory",
   },
   // {
   //   id: 3,
