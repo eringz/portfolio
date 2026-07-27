@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
 {/* UI COMPONENTS */}
-import Social from "@/components/ui/Social";
+// import Social from "@/components/ui/Social";
 import Photo from "@/components/ui/Photo";
 import Stats from "@/components/ui/Stats";
 import { motion } from "framer-motion";

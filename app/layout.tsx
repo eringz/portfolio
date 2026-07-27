@@ -5,12 +5,12 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from 'next/font/google';
 
 // CSS
-import "./globals.css";
+// import "./globals.css";
 
 // COMPONENTS
 import Header from "@/components/Header";
-import PageTransition from "@/components/PageTransition";
-import StairTransition from "@/components/StairTransition";
+// import PageTransition from "@/components/PageTransition";
+// import StairTransition from "@/components/StairTransition";
 import Footer from "@/components/Footer";
 
 const jetbrainsMono = JetBrains_Mono({

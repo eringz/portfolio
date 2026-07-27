@@ -47,7 +47,7 @@ const projects: Project[] = [
     tech: ["React", "Express", "MongoDB", "Socket.io"],
     // image: "/assets/quick-chat.png",
     liveUrl: "https://timeless.dreamplanfix.com/",
-    githubUrl: "https://github.com/eringz/quick-chat",
+    githubUrl: "https://github.com/eringz/timeless-media-studio",
   },
   {
     id: 4,
