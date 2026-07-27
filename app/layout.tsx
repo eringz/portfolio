@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from 'next/font/google';
 
 // CSS
-// import "./globals.css";
+import "./globals.css";
 
 // COMPONENTS
 import Header from "@/components/Header";

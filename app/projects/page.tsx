@@ -44,21 +44,21 @@ const projects: Project[] = [
     description:
       "Designed and developed a sleek, modern portfolio website for Timeless Media Studio, a professional photography and media agency. The platform features an interactive editorial showcase, clean gallery layouts, dynamic service listings, and an integrated reservation booking interface.",
     category: "Web",
-    tech: ["React", "Express", "MongoDB", "Socket.io"],
+    tech: ["React", "Next.js", "Supabase"],
     // image: "/assets/quick-chat.png",
     liveUrl: "https://timeless.dreamplanfix.com/",
     githubUrl: "https://github.com/eringz/timeless-media-studio",
   },
   {
     id: 4,
-    title: "Timeless Media Studio",
+    title: "Fixed Asset Inventory",
     description:
-      "Designed and developed a sleek, modern portfolio website for Timeless Media Studio, a professional photography and media agency. The platform features an interactive editorial showcase, clean gallery layouts, dynamic service listings, and an integrated reservation booking interface.",
-    category: "Web",
-    tech: ["React", "Express", "MongoDB", "Socket.io"],
+      "Developed an internal asset tracking and management system designed to monitor, audit, and manage physical assets (such as camera gear, lighting equipment, and studio hardware). The system streamlines asset lifecycle management—from procurement and assignment to maintenance and depreciation tracking.",
+    category: "Mobile",
+    tech: ["Kotlin", "Room"],
     // image: "/assets/quick-chat.png",
     liveUrl: "https://timeless.dreamplanfix.com/",
-    githubUrl: "https://github.com/eringz/quick-chat",
+    githubUrl: "https://github.com/eringz/fixed-asset-inventory/releases/download/v1.0.0/app-release.apk",
   },
   // {
   //   id: 3,
