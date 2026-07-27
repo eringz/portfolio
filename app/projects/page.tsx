@@ -183,7 +183,7 @@ export default function ProjectsPage() {
                     <Globe size={16} /> Live
                   </a>
                 )}
-                {/* {project.githubUrl && (
+                {project.githubUrl && (
                   <a
                     href={project.githubUrl}
                     target="_blank"
@@ -191,7 +191,7 @@ export default function ProjectsPage() {
                   >
                     <Github size={16} /> Code
                   </a>
-                )} */}
+                )}
               </div>
             </div>
           </motion.div>
