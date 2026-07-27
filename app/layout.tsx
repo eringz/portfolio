@@ -11,6 +11,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import Footer from "@/components/Footer";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets:  ['latin'],
@@ -32,12 +33,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${jetbrainsMono.variable} antialiased`}
+        className={`${jetbrainsMono.variable} antialiased`} 
       >
         <Header />
-        <StairTransition />
-        <PageTransition>{children}</PageTransition>
+        {/* <StairTransition /> */}
+        {/* <PageTransition>{children}</PageTransition> */}
+        {children}
         
+        <Footer />
       </body>
     </html>
   );

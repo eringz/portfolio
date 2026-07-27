@@ -39,11 +39,11 @@ export const navLinks: NavLink[] = [
     //     path: "/resume",
     // },
     
-    {
-        name: "contact",
-        path: "/contact",
-        icon: FaFacebookMessenger
-    },
+    // {
+    //     name: "contact",
+    //     path: "/contact",
+    //     icon: FaFacebookMessenger
+    // },
 
 ];
 

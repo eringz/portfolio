@@ -16,27 +16,49 @@ interface Project {
 }
 
 const projects: Project[] = [
+  // {
+  //   id: 1,
+  //   title: "QuickChat Realtime App",
+  //   description:
+  //     "A realtime messaging app with socket.io and cloud media uploads.",
+  //   category: "Web",
+  //   tech: ["React", "Express", "MongoDB", "Socket.io"],
+  //   // image: "/assets/quick-chat.png",
+  //   liveUrl: "https://quick-chat-f5ioh.sevalla.app/",
+  //   githubUrl: "https://github.com/eringz/quick-chat",
+  // },
+  // {
+  //   id: 2,
+  //   title: "BioPro Automation Script",
+  //   description:
+  //     "Bio Pro is a smart attendance system that leverages Face Recognition (mock-up via laptop camera) and is designed to evolve with Fingerprint/IoT hardware integration in the future. It provides an end-to-end solution from attendance logging to payroll-ready reporting",
+  //   category: "Automation",
+  //   tech: ["Next.js", "Node.js", "TypeScript"],
+  //   // image: "/assets/quick-chat.png",
+  //   liveUrl: "https://bio-pro.vercel.app/",
+  //   githubUrl: "https://github.com/eringz/bio-pro",
+  // },
   {
-    id: 1,
-    title: "QuickChat Realtime App",
+    id: 3,
+    title: "Timeless Media Studio",
     description:
-      "A realtime messaging app with socket.io and cloud media uploads.",
+      "Designed and developed a sleek, modern portfolio website for Timeless Media Studio, a professional photography and media agency. The platform features an interactive editorial showcase, clean gallery layouts, dynamic service listings, and an integrated reservation booking interface.",
     category: "Web",
     tech: ["React", "Express", "MongoDB", "Socket.io"],
     // image: "/assets/quick-chat.png",
-    liveUrl: "https://quick-chat-f5ioh.sevalla.app/",
+    liveUrl: "https://timeless.dreamplanfix.com/",
     githubUrl: "https://github.com/eringz/quick-chat",
   },
   {
-    id: 2,
-    title: "BioPro Automation Script",
+    id: 4,
+    title: "Timeless Media Studio",
     description:
-      "Bio Pro is a smart attendance system that leverages Face Recognition (mock-up via laptop camera) and is designed to evolve with Fingerprint/IoT hardware integration in the future. It provides an end-to-end solution from attendance logging to payroll-ready reporting",
-    category: "Automation",
-    tech: ["Next.js", "Node.js", "TypeScript"],
+      "Designed and developed a sleek, modern portfolio website for Timeless Media Studio, a professional photography and media agency. The platform features an interactive editorial showcase, clean gallery layouts, dynamic service listings, and an integrated reservation booking interface.",
+    category: "Web",
+    tech: ["React", "Express", "MongoDB", "Socket.io"],
     // image: "/assets/quick-chat.png",
-    liveUrl: "https://bio-pro.vercel.app/",
-    githubUrl: "https://github.com/eringz/bio-pro",
+    liveUrl: "https://timeless.dreamplanfix.com/",
+    githubUrl: "https://github.com/eringz/quick-chat",
   },
   // {
   //   id: 3,
@@ -161,7 +183,7 @@ export default function ProjectsPage() {
                     <Globe size={16} /> Live
                   </a>
                 )}
-                {project.githubUrl && (
+                {/* {project.githubUrl && (
                   <a
                     href={project.githubUrl}
                     target="_blank"
@@ -169,7 +191,7 @@ export default function ProjectsPage() {
                   >
                     <Github size={16} /> Code
                   </a>
-                )}
+                )} */}
               </div>
             </div>
           </motion.div>
